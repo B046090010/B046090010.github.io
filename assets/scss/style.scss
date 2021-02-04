@@ -1390,6 +1390,27 @@ header .form-inline {
     }
 }
 
+#flotPie2 {
+    height: 90px;
+    .pieLabel {
+        display: none;
+    }
+    .legend tr {
+        padding-bottom: 5px;
+    }
+    .legendColorBox {
+        float: left;
+        margin: 2px 5px 0 0;
+        > div {
+            border: none !important;
+        }
+    }
+    .legendLabel {
+        color: #868e96;
+        font-family: 'Open Sans';
+        font-size: 12px;
+    }
+}
 /* Stats Table */
 
 .table-stats {
